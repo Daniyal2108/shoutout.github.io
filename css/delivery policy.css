@@ -1,0 +1,103 @@
+/* DELIVERY POLICY PAGE BORDER */
+.delivery-page-top-border {
+    padding: 50px 100px 50px 100px;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+.about-h1 {
+    text-align: left;
+    color: #101112;
+}
+.home-bar-text {
+    font-size: 25px;
+    color: #101112;
+}
+.blue {
+    color: #104572;
+}
+@media only screen and (max-width: 1303px) {
+    .home-bar-text {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .home-bar-text {
+        font-size: 20px;
+    }   
+    .home-bar-text img {
+        width: 15%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1102px) {
+    .home-bar-text {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .home-bar-text {
+        font-size: 14px;
+    }
+    .home-bar-text img {
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 894px) {
+    .home-bar-text {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 807px) {
+    .home-bar-text {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .delivery-page-top-border {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    } 
+    .about-h1 {
+        text-align: center ;
+    }
+    .home-bar-text {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 367px) {
+    .home-bar-text {
+        font-size: small;
+    }
+    .home-bar-text img {
+        width: 10%;
+    }
+}
+
+/* GENERAL INFORMATION */
+.general-information-container {
+    padding: 50px 100px 50px 100px;
+}
+.bg-none {
+    padding: 50px;
+}
+.bg-light-grey {
+    padding: 50px;
+    background-color: rgba(128, 128, 128, 0.089);
+}
+.paragraph {
+    font-size: 22px;
+}
+@media only screen and (max-width: 767px) {
+    .paragraph {
+        font-size: unset;
+    }
+    .general-information-container {
+        padding: 50px 20px 50px 20px;
+    }
+    .bg-none {
+        padding: 20px;
+    }   
+    .bg-light-grey {
+        padding: 20px;
+    }
+}

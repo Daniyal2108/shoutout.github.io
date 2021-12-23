@@ -1,0 +1,347 @@
+/* ABOUT US TOP BORDER*/
+.about-top-border {
+    padding: 50px 100px 50px 100px;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+.about-h1 {
+    text-align: left;
+    color: #101112;
+}
+.home-bar-text {
+    font-size: 25px;
+    color: #101112;
+}
+.blue {
+    color: #104572;
+}
+@media only screen and (max-width: 1303px) {
+    .home-bar-text {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .home-bar-text {
+        font-size: 20px;
+    }   
+    .home-bar-text img {
+        width: 15%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1102px) {
+    .home-bar-text {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .home-bar-text {
+        font-size: 14px;
+    }
+    .home-bar-text img {
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 894px) {
+    .home-bar-text {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 807px) {
+    .home-bar-text {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .about-top-border {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    } 
+    .about-h1 {
+        text-align: center ;
+    }
+    .home-bar-text {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 367px) {
+    .home-bar-text {
+        font-size: small;
+    }
+    .home-bar-text img {
+        width: 10%;
+    }
+}
+
+
+/* FUNDING SECTION*/
+.funding-section-fluid {
+    padding: 50px 100px 50px 100px;
+}
+.funding-p {
+    font-size: 35px !important;
+    color: #104572;
+}
+.funding-col p {
+    font-size: 23px;
+}
+.checked {
+    color: orange;
+}
+.star {
+    font-size: 30px !important;
+}
+.review-btn {
+    background-color: white !important;
+    border: white !important;
+    color: black !important;
+} 
+.write-a-review-btn {
+    font-size: 30px ;
+}
+.strikethrough-col {
+    padding-top: 20px;
+}
+@media only screen and (max-width: 767px) {
+    .strikethrough-col {
+        text-align: center;
+    }
+}
+.striketrough {
+    font-size: 30px;
+    color: red;
+} 
+.non-strikethrough {
+    font-size: 30px;
+    background-color: #104572;
+    color: white;
+    border-radius: 5px;
+}
+.border-bottom {
+    border-bottom: solid 3px grey;
+}
+.font-awesome-social-icons {
+    padding-left: 20px;
+    color: grey;
+}
+.price {
+    font-size: 30px !important;
+}
+.price-2 {
+    text-align: right;
+}
+.progress {
+    height: 25px;
+}
+.progress-bar {
+    width: 30%;
+}
+.funding-col button {
+    background-color: #104572;
+    color: white;
+}
+.funding-social-icon {
+    text-align: right ;
+}
+.pt {
+    padding-top: 20px;
+}
+.pt2 {
+    padding-top: 20px;
+}
+@media only screen and (max-width: 767px) {
+    .pt2 {
+        margin: 10px auto 10px auto;
+    }
+    .padding-top-in-responsive {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .star-col-responsive {
+        text-align: center;
+    }
+    .wishlist-col-responsive {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1650px) {      /* SLIDER*/
+    .slide-img {
+        width: 18%;
+    }
+}
+.slide-img {
+    width: 18%;
+}
+@media only screen and (max-width: 1450px) {
+    .pt {
+        padding-top: 0px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .funding-p {
+        font-size: 30px !important;
+        color: #104572;
+    }
+    .funding-col p {
+        font-size: 18px;
+    }
+    .funding-section h1 {
+        font-size: 25px;
+    }
+    .pt {
+        padding-top: 0px ;
+        padding-bottom: 0px ;
+    }
+    .price {
+        font-size: 15px !important;
+    }
+    .progress {
+        height: 15px;
+    }
+    .funding-col button {
+        font-size: 12px;
+    }
+    .funding-social-icon img {
+        width: 20% ;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .funding-p {
+        font-size: 30px !important;
+        color: #104572;
+    }
+    .funding-col p {
+        font-size: 18px;
+    }
+    .funding-section h1 {
+        font-size: 25px;
+    }
+    .pt {
+        padding-top: 0px ;
+    }
+    .price {
+        font-size: 15px !important;
+    }
+    .progress {
+        height: 15px;
+    }
+    .funding-col button {
+        font-size: 12px;
+    }
+    .funding-social-icon img {
+        width: 20% ;
+        
+    }
+}
+@media only screen and (max-width: 767px) {
+    .funding-section-fluid {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .funding-row {
+        text-align: center;
+    }   
+    .funding-col h1 {
+        text-align: center ;
+    }
+    .price {
+        text-align: center !important;
+    }
+    .button {
+        text-align: center ;
+    }
+    .funding-social-icon {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 472px) {
+    .funding-social-icon img {
+        width: 18%;
+    }
+}
+@media only screen and (max-width: 446px) {
+    .price {
+        font-size: 22px !important;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .funding-col h1 {
+        font-size: 22px;
+        text-align: center ;
+    }   
+    .funding-col p {
+        font-size: 18px;
+    }
+    .price {
+        font-size: 12px !important;
+    }
+    .funding-social-icon img {
+        width: 18%;
+    }
+}
+@media only screen and (max-width: 319px) {
+    .funding-col h1 {
+        font-size: 18px;
+        text-align: center ;
+    }
+    .funding-col p {
+        font-size: 16px;
+    }
+    .price {
+        font-size: 12px !important;
+    }
+} 
+
+/* DESCRIPTION SECTION*/
+.description-container {
+    padding: 50px 100px 50px 100px;
+}
+.link-row {
+    display: inline-flex;
+}
+.card-link {
+    color: black !important;
+    font-size: 25px;
+    padding: 20px;
+}
+.card-link:hover {
+    font-weight: bold;
+    text-decoration: underline 10px #082f52 !important;
+}
+.card-link:active {
+    font-weight: bold !important;
+    text-decoration: underline 10px #052038 !important;
+}
+.card-link-selected {
+    font-weight: bold !important;
+    text-decoration: underline 10px #052038 !important;
+}
+.card-body {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 50px;
+    color: black;
+}
+@media only screen and (max-width: 767px) {
+    .description-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .link-row {
+        display: inline-flex !important;
+    }
+    .card-link {
+        font-size: 12px;
+    }
+    .card-body {
+        padding: 20px;
+    }
+    .p-sm {
+        text-align: left !important;
+    }
+}
+@media only screen and (max-width: 395px) {
+    .card-link {
+        padding: 8px;
+    }
+}

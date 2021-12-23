@@ -1,0 +1,167 @@
+
+/* ABOUT US TOP BORDER*/
+.about-top-border {
+    padding: 50px 100px 50px 100px;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+.about-h1 {
+    text-align: left;
+    color: #101112;
+}
+.home-bar-text {
+    font-size: 25px;
+    color: #101112;
+}
+.blue {
+    color: #104572;
+}
+@media only screen and (max-width: 1303px) {
+    .home-bar-text {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .home-bar-text {
+        font-size: 20px;
+    }   
+    .home-bar-text img {
+        width: 15%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1102px) {
+    .home-bar-text {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .home-bar-text {
+        font-size: 14px;
+    }
+    .home-bar-text img {
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 894px) {
+    .home-bar-text {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 807px) {
+    .home-bar-text {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .about-top-border {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    } 
+    .about-h1 {
+        text-align: center ;
+    }
+    .home-bar-text {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 367px) {
+    .home-bar-text {
+        font-size: small;
+    }
+    .home-bar-text img {
+        width: 10%;
+    }
+}
+
+/* THIRD SECTION*/
+.about-third-sec {
+    padding: 50px 100px 50px 100px;
+}
+.about-third-sec h4 {
+    color: black;
+}
+@media only screen and (max-width: 767px) {
+    .about-third-sec {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about-third-sec p {
+        text-align: left !important;
+    }
+}
+
+/* FOURTH SECTION*/
+.about-fourth-sec {
+    background-color: #151e26;
+    color: white;
+}
+.about-fourth-padding {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+@media only screen and (max-width: 767px) {
+    .about-fourth-padding {
+        padding-left: 20px ;
+        padding-right: 20px ;
+    }
+    .pd-sm {
+        padding-top: 20px !important;
+    }
+}
+.about-fourth-sec p {
+    text-align: left !important;
+}
+.about-fourth-sec button {
+    background-color: #104572;
+    color: white;
+}
+.progress-text-col {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.progress-col {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+.progCol {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.progress-bar {
+    background-color: #104572 !important;
+    color: white;
+}
+.first-progress-bar {
+    width: 90%;
+}
+.second-progress-bar {
+    width: 82%;
+}
+.third-progress-bar {
+    width: 75%;
+}
+.fourth-progress-bar {
+    width: 99%;
+}
+.fifth-progress-bar {
+    width: 80%;
+}
+.sixth-progress-bar {
+    width: 51%;
+}
+
+/* FIFTH SECTION*/
+.about-fifth-sec {
+    padding: 50px 100px 50px 100px;
+}
+.about-fifth-sec p {
+    text-align: left !important;
+}
+@media only screen and (max-width: 767px) {
+    .about-fifth-sec {
+        padding-left: 20px;
+        padding-right: 20px;
+    }   
+}

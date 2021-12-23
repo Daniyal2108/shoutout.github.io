@@ -1,0 +1,269 @@
+/* ABOUT US TOP BORDER*/
+.about-top-border {
+    padding: 50px 100px 50px 100px;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+.about-h1 {
+    text-align: left;
+    color: #101112;
+}
+.home-bar-text {
+    font-size: 25px;
+    color: #101112;
+}
+.blue {
+    color: #104572;
+}
+@media only screen and (max-width: 1303px) {
+    .home-bar-text {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .home-bar-text {
+        font-size: 20px;
+    }   
+    .home-bar-text img {
+        width: 15%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1102px) {
+    .home-bar-text {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .home-bar-text {
+        font-size: 14px;
+    }
+    .home-bar-text img {
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 894px) {
+    .home-bar-text {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 807px) {
+    .home-bar-text {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .about-top-border {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    } 
+    .about-h1 {
+        text-align: center ;
+    }
+    .home-bar-text {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 367px) {
+    .home-bar-text {
+        font-size: small;
+    }
+    .home-bar-text img {
+        width: 10%;
+    }
+}
+
+/* BANNER*/
+.crowdfunding-banner {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    color: white;
+    text-align: center;
+    background-image: url(../slicing/my-shout-crowdfunding-1/banner.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+.crowdfunding-banner button {
+    background-color: #104572;
+    color: white;
+}
+.p-top {
+    padding-top: 30px;
+}
+@media only screen and (max-width: 767px) {
+    .crowdfunding-banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 484px) {
+    .crowdfunding-banner h1 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 372px) {
+    .crowdfunding-banner h1 {
+        font-size: 30px;
+    }
+}
+
+
+
+/* POPULAR PROJECT SECTION*/
+.popular-project-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.popular-project-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.crowd-card-row {
+    padding-top: 50px;
+}
+.crowd-card-img {
+    width: 100%;
+}
+.crowd-card-header {
+    padding: 0px;
+}
+.crowd-card-h {
+    color: #104572;
+}
+.origami-txt {
+    padding-top: 10px;
+    padding-right: 0px;
+    color: #151e26;
+    font-weight: bold;
+}
+.crowd-price {
+    padding-top: 10px;
+    color: #104572;
+}
+.crowd-price span {
+    font-size: 10px;
+}
+.span-sm-1 {
+    font-size: 10px;
+}
+.span-sm-2 {
+    text-align: left !important;
+    font-size: 10px;
+}
+@media only screen and (max-width: 991px) {
+    .cardCol-sm {
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .popular-project-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .crowd-card-img {
+        width: 100% !important;
+    }
+    .cardCol-sm {
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cardCol-sm {
+        padding-top: 0px;
+    }
+    .cardCol {
+        padding-top: 50px;
+    }
+}
+
+/* RIDE SECTION*/
+.ride-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(128, 128, 128, 0.089);
+}
+.ride-section-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.ride-section h1 {
+    text-align: center;
+    color: #104572;
+}
+.cycle {
+    margin-top: -100px;
+}
+.bag {
+    margin-top: -80px;
+}
+.ride-section p {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.gameboy {
+    margin-top: 100px;
+}
+@media only screen and (max-width: 767px) {
+    .ride-section-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .cycle {
+        width: 50%;
+        margin-top: -100px;
+    }
+    .bag {
+        width: 25%;
+        margin-top: -270px;
+    }
+    .gameboy {
+        margin-top: 0px;
+        float: unset !important;
+    }   
+}
+@media only screen and (max-width: 720px) {
+    .bag {
+        margin-top: -260px;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .bag {
+        margin-top: -250px;
+    }
+}
+@media only screen and (max-width: 645px) {
+    .bag {
+        margin-top: -240px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .bag {
+        margin-top: -230px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .bag {
+        margin-top: -220px;
+    }
+}
+@media only screen and (max-width: 402px) {
+    .bag {
+        margin-top: -270px;
+        width: 30%;
+    }
+    .cycle {
+        width: 80%;
+        margin-top: -80px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .bag {
+        margin-top: -250px;
+    }
+}
+@media only screen and (max-width: 311px) {
+    .bag {
+        margin-top: -290px;
+    }
+}

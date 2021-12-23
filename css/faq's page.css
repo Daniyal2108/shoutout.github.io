@@ -1,0 +1,153 @@
+/* FAQ TOP BORDER */
+/* .faq-page-top-border {
+    background-color: rgba(128, 128, 128, 0.089);
+    padding: 50px 100px 50px 100px;
+}
+@media only screen and (min-width: 961px) and (max-width: 1076px) {
+    .faq-page-top-border img {
+        width: 20%;
+        margin-left: -30px;
+    }
+    .faq-page-top-border p {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .faq-page-top-border img {
+        width: 20%;
+        margin-left: -60px;
+    }
+    .faq-page-top-border p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .faq-page-top-border h1 {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 493px) {
+    .faq-page-top-border h1 {
+        font-size: 23px;
+    }
+    .faq-page-top-border img {
+        width: 15%;
+    }
+    .faq-page-top-border p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 449px) {
+    .faq-page-top-border img {
+        width: 12%;
+    }
+    .faq-page-top-border p {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .faq-page-top-border img {
+        width: 10%;
+    }
+    .faq-page-top-border p {
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width: 369px) {
+    .faq-page-top-border h1 {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 338px) {
+    .faq-page-top-border img {
+        width: 9%;
+    }
+    .faq-page-top-border h1 {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 328px) {
+    .faq-page-top-border h1 {
+        font-size: 12px;
+    }
+} */
+.faq-page-top-border {
+    padding: 50px 100px 50px 100px;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+.about-h1 {
+    text-align: left;
+    color: #101112;
+}
+.home-bar-text {
+    font-size: 25px;
+    color: #101112;
+}
+.blue {
+    color: #104572;
+}
+@media only screen and (max-width: 1303px) {
+    .home-bar-text {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .home-bar-text {
+        font-size: 20px;
+    }   
+    .home-bar-text img {
+        width: 15%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1102px) {
+    .home-bar-text {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .home-bar-text {
+        font-size: 14px;
+    }
+    .home-bar-text img {
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 894px) {
+    .home-bar-text {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 807px) {
+    .home-bar-text {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .faq-page-top-border {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    } 
+    .about-h1 {
+        text-align: center ;
+    }
+    .home-bar-text {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 367px) {
+    .home-bar-text {
+        font-size: small;
+    }
+    .home-bar-text img {
+        width: 10%;
+    }
+}
+
+/* ACCORDION SECTION */
+@media only screen and (min-width: 1200px) {
+    .accordion-container {
+        padding: 50px 230px 50px 230px;
+    }
+}

@@ -1,0 +1,227 @@
+
+/* BANNER */
+.jumbo-col {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* FUNDING SECTION*/
+.funding-section-fluid {
+    padding: 50px 100px 50px 100px;
+}
+.funding-p {
+    font-size: 35px !important;
+    color: #104572;
+}
+.funding-col p {
+    font-size: 23px;
+}
+.checked {
+    color: orange;
+}
+.star {
+    font-size: 30px !important;
+}
+.review-btn {
+    background-color: white !important;
+    border: white !important;
+    color: black !important;
+} 
+.write-a-review-btn {
+    font-size: 30px ;
+}
+.strikethrough-col {
+    padding-top: 20px;
+}
+@media only screen and (max-width: 767px) {
+    .strikethrough-col {
+        text-align: center;
+    }
+}
+.striketrough {
+    font-size: 30px;
+    color: red;
+} 
+.non-strikethrough {
+    font-size: 30px;
+    background-color: #104572;
+    color: white;
+    border-radius: 5px;
+}
+.border-bottom {
+    border-bottom: solid 3px grey;
+}
+.font-awesome-social-icons {
+    padding-left: 20px;
+    color: grey;
+}
+.price {
+    font-size: 30px !important;
+}
+.price-2 {
+    text-align: right;
+}
+.progress {
+    height: 25px;
+}
+.progress-bar {
+    width: 30%;
+}
+.funding-col button {
+    background-color: #104572;
+    color: white;
+}
+.funding-social-icon {
+    text-align: right ;
+}
+.pt {
+    padding-top: 20px;
+}
+.pt2 {
+    padding-top: 20px;
+}
+.deal-cart-col {
+    padding-top: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .pt2 {
+        margin: 10px auto 10px auto;
+    }
+    .padding-top-in-responsive {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .star-col-responsive {
+        text-align: center;
+    }
+    .wishlist-col-responsive {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1650px) {      /* SLIDER*/
+    .slide-img {
+        width: 18% ;
+    }
+}
+.slide-img {
+    width: 18%;
+}
+@media only screen and (max-width: 1450px) {
+    .pt {
+        padding-top: 0px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .funding-p {
+        font-size: 30px !important;
+        color: #104572;
+    }
+    .funding-col p {
+        font-size: 18px;
+    }
+    .funding-section h1 {
+        font-size: 25px;
+    }
+    .pt {
+        padding-top: 0px ;
+        padding-bottom: 0px ;
+    }
+    .price {
+        font-size: 15px !important;
+    }
+    .progress {
+        height: 15px;
+    }
+    .funding-col button {
+        font-size: 12px;
+    }
+    .funding-social-icon img {
+        width: 20% ;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .funding-p {
+        font-size: 30px !important;
+        color: #104572;
+    }
+    .funding-col p {
+        font-size: 18px;
+    }
+    .funding-section h1 {
+        font-size: 25px;
+    }
+    .pt {
+        padding-top: 0px ;
+    }
+    .price {
+        font-size: 15px !important;
+    }
+    .progress {
+        height: 15px;
+    }
+    .funding-col button {
+        font-size: 12px;
+    }
+    .funding-social-icon img {
+        width: 20% ;
+        
+    }
+}
+@media only screen and (max-width: 767px) {
+    .funding-section-fluid {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .funding-row {
+        text-align: center;
+    }   
+    .funding-col h1 {
+        text-align: center ;
+    }
+    .price {
+        text-align: center !important;
+    }
+    .button {
+        text-align: center ;
+    }
+    .funding-social-icon {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 472px) {
+    .funding-social-icon img {
+        width: 18%;
+    }
+}
+@media only screen and (max-width: 446px) {
+    .price {
+        font-size: 22px !important;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .funding-col h1 {
+        font-size: 22px;
+        text-align: center ;
+    }   
+    .funding-col p {
+        font-size: 18px;
+    }
+    .price {
+        font-size: 12px !important;
+    }
+    .funding-social-icon img {
+        width: 18%;
+    }
+}
+@media only screen and (max-width: 319px) {
+    .funding-col h1 {
+        font-size: 18px;
+        text-align: center ;
+    }
+    .funding-col p {
+        font-size: 16px;
+    }
+    .price {
+        font-size: 12px !important;
+    }
+}
