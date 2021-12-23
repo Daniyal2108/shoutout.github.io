@@ -31,23 +31,23 @@ var image_7 = document.getElementById("image-7");
 var image_8 = document.getElementById("image-8");
 
 image_1.onclick = function() {
-    var mainImage = document.getElementById("main-image").src = "../slicing/my-shout-crowdfunding-2-inner-pages/image-2.png";
+    var mainImage = document.getElementById("main-image").src = "../shoutout.github.io/slicing/my-shout-crowdfunding-2-inner-pages/image-2.png";
 }
 
 image_2.onclick = function() {
-    var mainImage = document.getElementById("main-image").src = "../slicing/my-shout-crowdfunding-2-inner-pages/image-3.png";
+    var mainImage = document.getElementById("main-image").src = "../shoutout.github.io/slicing/my-shout-crowdfunding-2-inner-pages/image-3.png";
 }
 
 image_3.onclick = function() {
-    var mainImage = document.getElementById("main-image").src = "../slicing/my-shout-crowdfunding-2-inner-pages/image-4.png";
+    var mainImage = document.getElementById("main-image").src = "../shoutout.github.io/slicing/my-shout-crowdfunding-2-inner-pages/image-4.png";
 }
 
 image_4.onclick = function() {
-    var mainImage = document.getElementById("main-image").src = "../slicing/my-shout-crowdfunding-2-inner-pages/image-5.png";
+    var mainImage = document.getElementById("main-image").src = "../shoutout.github.io/slicing/my-shout-crowdfunding-2-inner-pages/image-5.png";
 }
 
 image_5.onclick = function() {
-    var mainImage = document.getElementById("main-image").src = "../slicing/my-shout-crowdfunding-2-inner-pages/image-2.png";
+    var mainImage = document.getElementById("main-image").src = "../shoutout.github.io/slicing/my-shout-crowdfunding-2-inner-pages/image-2.png";
 }
 
 image_6.onclick = function() {
@@ -55,11 +55,11 @@ image_6.onclick = function() {
 }
 
 image_7.onclick = function() {
-    var mainImage = document.getElementById("main-image").src = "../slicing/my-shout-crowdfunding-2-inner-pages/image-4.png";
+    var mainImage = document.getElementById("main-image").src = "../shoutout.github.io/slicing/my-shout-crowdfunding-2-inner-pages/image-4.png";
 }
 
 image_8.onclick = function() {
-    var mainImage = document.getElementById("main-image").src = "../slicing/my-shout-crowdfunding-2-inner-pages/image-5.png";
+    var mainImage = document.getElementById("main-image").src = "../shoutout.github.io/slicing/my-shout-crowdfunding-2-inner-pages/image-5.png";
 }
 
 /* SLIDER IMAGE SELECTION */
