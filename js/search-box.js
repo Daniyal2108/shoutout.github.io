@@ -1,8 +1,25 @@
-var x = document.getElementById("navbarContent");
-document.getElementById("search-box").onclick = function(){
-    var x = document.getElementById("navbarContent");
-    x.style.display.none;
-    var a = document.createElement("<input type='search' id='search-here'>");
-    a.style["width"] = 100;
-    x.appendChild(a);   
+document.getElementById("search-icon").onclick = function(){
+    // main menu display none
+    document.getElementById("menu").style.display = "none";
+    document.getElementById("style-none").style.display = "none";
+    document.getElementById("buy-icon").style.display = "none";
+    document.getElementById("heart-icon").style.display = "none";
+    document.getElementById("bitcoin-icon").style.display = "none";
+
+    // search box display show
+    document.getElementById("search-bar").style.display = "initial";
+    
+    // click search box cancel icon
+    document.getElementById("cancel").onclick = function(){
+        // search box display none
+        document.getElementById("search-bar").style.display = "none";
+
+        // main menu display show
+        document.getElementById("menu").style.display = "inherit";
+        document.getElementById("style-none").style.display = "inherit";
+        document.getElementById("buy-icon").style.display = "inherit";
+        document.getElementById("heart-icon").style.display = "inherit";
+        document.getElementById("bitcoin-icon").style.display = "inherit";
+    }
+
 }

@@ -835,3 +835,29 @@
         padding-right: 20px !important;
     }
 }
+
+@media only screen and (max-width: 600px){
+    .input-search {
+        width: 70% ;
+    }
+    .search {
+        display: inline-block ;
+        
+    }
+}
+@media only screen and (min-width: 600px) {
+    .input-search {
+        width: 75% ;
+    }
+    .search {
+        display: inline-block ;
+        width: 20%;   
+    }
+}
+.search-bar {
+    display: none;
+}
+#cancel {
+    cursor: pointer;
+}
+
